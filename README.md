@@ -1,41 +1,42 @@
-# jav_announcement
-# 🌐 Huokaing Thara Bank & ISP Portal
+# huokaingthara_announcement
+# 🌐 HUOKAING THARA BANK & ISP — Official Executive Announcement Portal
 
-Welcome to the official repository for the **Huokaing Thara Bank & ISP** corporate and executive announcement portal. This project features a cyberpunk-inspired Matrix digital rain background, automated multi-language executive speech synthesis, and secure operational logs.
+A high-tech, cyber-secured corporate announcement and executive leadership portal built with modern web technologies, featuring a Matrix-style digital canvas background, bilingual Khmer/English declarations, Web Speech API voice narration, live telemetry logs, and a grand opening countdown timer.
 
-## 👥 Executive Leadership
+## 🏛️ Executive Leadership Board
 
-* **Chief Executive Officer (CEO):** Mr. Men
-* **Director of Corporate Operations:** Mr. Seng Chhat
-* **Chief of Security:** Mr. Jav
-* **Chief Cybersecurity Officer & Head of Marketing:** Mr. Huokaing Thara
+* **Mrs. KIMMUY (អ្នកនាង គីម មួយ)** — Secretary and Chief of Customer Service
+* **Mr. DOM (លោក ដំ)** — Chief Executive Officer (CEO)
+* **Mr. DO (លោក ដូ)** — Chief Executive Officer (CEO)
+* **Mr. KUO (លោក គោ)** — Chief Executive Officer (CEO)
+* **Mr. SENG CHHAT (សេង ឆាត់)** — Director
+* **Mr. JAV (លោក ជេវ)** — Chief of Security
+* **Mr. HUOKAING THARA (ហួកាំង ថារ៉ា)** — Chief Cybersecurity Officer & Head of Marketing
 
 ## ✨ Key Features
 
-* **Matrix Hologram Background:** Custom canvas-based streaming digital text animation featuring corporate keywords.
-* **AI Voice Presentation Engine:** Built-in multi-language speech synthesis (`km-KH` and `en-US`) to dynamically read official executive decrees and appointments with a live audio visualizer.
-* **Interactive Countdown Timer:** Live tracking of the timeline leading up to the grand opening.
-* **Live Telemetry Broadcast Feed:** Real-time simulated log updates showing key executive assignments and security initializations.
-* **Security Shielding:** Client-side protective handlers to disable default context menus and developer shortcut keys.
+1. **Cyberpunk Holographic Interface:** Immersive dark-mode glassmorphism styling (`style.css`) paired with an interactive dynamic HTML5 Canvas Matrix stream (`app.js`).
+2. **Bilingual Corporate Decrees (`index.html`):** Fully detailed, structured executive appointment announcements presented in both Khmer and English.
+3. **AI Voice Presentation Reader:** Powered by the browser's native Web Speech API (`speechSynthesis`), allowing visitors to listen to automated sequential voice presentations in Khmer (`km-KH`) and English (`en-US`) with audio waveform visualizer animations.
+4. **Live Telemetry & Countdown Engine:** Real-time countdown timer tracking the target operational timeline and a dynamic scrolling corporate broadcast feed log.
+5. **Security Hardened Codebase:** Built-in client-side protections disabling right-click context menus and developer shortcut key triggers (`F12`, `Ctrl+U`, `Ctrl+Shift+I`, etc.).
 
-## 📂 Project Structure
+## 📂 Project File Structure
 
-├── index.html       # Main application markup layout
-├── style.css        # Matrix-themed responsive stylesheets
-└── app.js           # Core logic, speech synthesis, and canvas engine
+├── index.html          # Main HTML structure, bilingual decree cards, and audio controls
+├── style.css           # Custom cyberpunk neon theme, animations, and responsive layout
+├── app.js              # Matrix canvas stream, Web Speech voice reader, countdown, and telemetry logs
+└── isp_announcement.jpg # Hero banner asset image
 
-## 🚀 Getting Started & Installation
+## 🚀 Getting Started & Local Implementation
 
-To run or test this project locally on your machine, follow these steps:
+To run or deploy this repository locally on your machine:
 
-1. **Clone or Download** the repository to your local machine:
-```bash
+1. **Clone or Download the Repository:**
 git clone https://github.com/tharahuokaing/solar-cyber-empire.git
 
-
-2. **Navigate** into the project directory.
-3. **Open** `index.html` directly in any modern web browser.
-
-## 📄 License
-
-This project is proprietary and confidential under the governance of Huokaing Thara Bank & ISP executive management.
+2. **Ensure File Placement:**
+Make sure `index.html`, `style.css`, `app.js`, and your banner image (`isp_announcement.jpg`) are located in the same root folder.
+3. **Launch Locally:**
+* Open `index.html` directly in any modern web browser (Google Chrome, Microsoft Edge, Firefox, or Safari).
+* For the best development experience, open the folder in **Visual Studio Code** and use the **Live Server** extension.
