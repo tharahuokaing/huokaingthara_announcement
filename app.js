@@ -13,7 +13,7 @@
   resize();
   window.addEventListener('resize', resize);
 
-  const phrase = "HUOKAING THARA BANK ISP MEN SENG CHHAT JAV CHIEF OF SECURITY CYBERSECURITY ";
+  const phrase = "HUOKAING THARA BANK ISP KIMMUY DOM DO KUO SENG CHHAT JAV CHIEF EXECUTIVE OFFICER ";
   const fontSize = 16;
   const columns = Math.floor(canvas.width / fontSize);
   const drops = Array(columns).fill(1);
@@ -41,7 +41,7 @@
 })();
 
 // =================================================================
-// AI VOICE PRESENTATION ENGINE (Updated with Chief of Security Mr. Jav)
+// AI VOICE PRESENTATION ENGINE (Expanded Executive Leadership)
 // =================================================================
 const announcementSpeech = [
   {
@@ -50,10 +50,14 @@ const announcementSpeech = [
     locale: 'km-KH',
     lines: [
       "សេចក្តីប្រកាសព័ត៌មានផ្លូវការ ពីលោក ហួរ និងគណៈគ្រប់គ្រង ធនាគារ ហួកាំង ថារ៉ា។",
-      "អំពីការបើកដំណើរការ ធនាគារ ហួកាំង ថារ៉ា និង ហួកាំង ថារ៉ា អាយអេសភី ជាផ្លូវការ។",
+      "អំពីការបើកដំណើរការ ធនាគារ ហួកាំង ថារ៉ា និង ហួកាំង ថារ៉ា អាយអេសភី ជាផ្លូវការនៅពេលខាងមុខ។",
       "លោក ម៉ែន ត្រូវបានតែងតាំងជា នាយកប្រតិបត្តិ ឬ ស៊ីអ៊ីអូ។",
+      "អ្នកនាង គីម មួយ ត្រូវបានតែងតាំងជា លេខាធិការ និងជាប្រធានផ្នែកសេវាអតិថិជន។",
+      "លោក ដំ ត្រូវបានតែងតាំងជា នាយកប្រតិបត្តិ ឬ ស៊ីអ៊ីអូ។",
+      "លោក ដូ ត្រូវបានតែងតាំងជា នាយកប្រតិបត្តិ ឬ ស៊ីអ៊ីអូ។",
+      "លោក គោ ត្រូវបានតែងតាំងជា នាយកប្រតិបត្តិ ឬ ស៊ីអ៊ីអូ។",
       "លោក សេង ឆាត់ ត្រូវបានតែងតាំងជា នាយក។",
-      "លោក ជេវ ត្រូវបានតែងតាំងជា ប្រធានផ្នែកសន្តិសុខ។",
+      "លោក ចែវ ត្រូវបានតែងតាំងជា ប្រធានផ្នែកសន្តិសុខ។",
       "លោក ហួកាំង ថារ៉ា ត្រូវបានតែងតាំងជា ប្រធានផ្នែកសន្តិសុខសុវត្ថិភាពឌីជីថល និងប្រធានផ្នែកទីផ្សារ។",
       "ក្រុមហ៊ុន ហួកាំង ថារ៉ា ប្តេជ្ញាផ្តល់ជូននូវសេវាកម្មអុីនធើណេត និងប្រព័ន្ធធនាគារដែលមានសុវត្ថិភាពខ្ពស់បំផុត។"
     ]
@@ -63,9 +67,13 @@ const announcementSpeech = [
     langName: 'English',
     locale: 'en-US',
     lines: [
-      "Official announcement decided by Mr. HUO and the executive management of HUOKAING THARA BANK.",
+      "Official announcement by Mr. HUO and the executive leadership board of HUOKAING THARA BANK.",
       "Regarding the upcoming grand launch of HUOKAING THARA BANK and HUOKAING THARA ISP.",
       "Mr. MEN is appointed as Chief Executive Officer, or CEO.",
+      "Mrs. KIMMUY is appointed as Secretary and Chief of Customer Service.",
+      "Mr. DOM is appointed as Chief Executive Officer.",
+      "Mr. DO is appointed as Chief Executive Officer.",
+      "Mr. KUO is appointed as Chief Executive Officer.",
       "Mr. SENG CHHAT is appointed as Director.",
       "Mr. JAV is appointed as Chief of Security.",
       "Mr. HUOKAING THARA is appointed as Chief Cybersecurity Officer and Head of Marketing.",
@@ -173,18 +181,21 @@ updateCountdown();
 setInterval(updateCountdown, 1000);
 
 // =================================================================
-// LIVE TELEMETRY BROADCAST FEED (Includes Chief of Security Mr. Jav)
+// LIVE TELEMETRY BROADCAST FEED (Expanded Executive Board Logs)
 // =================================================================
 const feedList = document.getElementById("feed-list");
 if (feedList) {
   setInterval(() => {
     const logs = [
       "CEO APPOINTED: Mr. MEN assigned Chief Executive Officer of Corporate Strategy.",
+      "SECRETARIAT APPOINTED: Mrs. KIMMUY assigned Secretary & Chief of Customer Service.",
+      "CEO APPOINTED: Mr. DOM assigned Chief Executive Officer of Digital Banking.",
+      "CEO APPOINTED: Mr. DO assigned Chief Executive Officer of ISP Infrastructure.",
+      "CEO APPOINTED: Mr. KUO assigned Chief Executive Officer of Finance & Innovation.",
       "DIRECTOR APPOINTED: Mr. SENG CHHAT assigned Director of Corporate Operations.",
       "SECURITY APPOINTED: Mr. JAV assigned Chief of Security for operational protection.",
       "APPOINTMENT VERIFIED: Mr. HUOKAING THARA assigned Chief Cybersecurity Officer & Head of Marketing.",
-      "EXECUTIVE DECREE: Signed by Mr. HUO & Board of Directors of HUOKAING THARA BANK.",
-      "SECURITY MATRIX: Cyber defense and digital banking encryption initialized."
+      "EXECUTIVE DECREE: Signed by Mr. HUO & Board of Directors of HUOKAING THARA BANK."
     ];
     const randomLog = logs[Math.floor(Math.random() * logs.length)];
     const item = document.createElement("li");
