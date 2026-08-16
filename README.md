@@ -1,3 +1,4 @@
+# For Education and Fun only
 # huokaingthara_announcement
 # 🌐 HUOKAING THARA BANK & ISP — Official Executive Announcement Portal
 
