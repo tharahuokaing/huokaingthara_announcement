@@ -8,6 +8,7 @@
   --border-gold: rgba(234, 179, 8, 0.4);
   --border-green: rgba(0, 255, 200, 0.4);
   --border-purple: rgba(168, 85, 247, 0.4);
+  --border-pink: rgba(255, 51, 102, 0.4);
   --neon-cyan: #00f0ff;
   --neon-gold: #eab308;
   --neon-green: #00ffc8;
@@ -210,6 +211,14 @@ header {
   font-size: 0.95rem;
   line-height: 1.8;
   color: var(--text-main);
+}
+
+.secretary-highlight {
+  background: rgba(255, 51, 102, 0.08);
+  border-left: 4px solid var(--neon-pink);
+  padding: 12px;
+  margin: 15px 0;
+  border-radius: 0 6px 6px 0;
 }
 
 .ceo-highlight {
